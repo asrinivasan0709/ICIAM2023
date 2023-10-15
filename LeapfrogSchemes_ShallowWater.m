@@ -2,8 +2,7 @@ clc; clear; close all;
 % Leapfrog schemes + Mimetic
 % ASrinivasan, 29Apr23, Shallow Water eqns
 
-addpath('C:\Anand\Acer_Data\SDSU\MOLE\mole-master\mole_MATLAB')
-addpath('C:\Anand\Acer_Data\SDSU\Mimetic\Quadratures\RelaxationRK\Matlab\WaveEqn\Rev2')
+addpath('...\mole-master\mole_MATLAB')
 
 % for energy evolution
 Ne = 5*[64, 128]'; 
