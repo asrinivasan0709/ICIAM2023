@@ -1,8 +1,7 @@
 clc; clear; close all;
 % Leapfrog 2nd order, Mimetic
-% ASrinivasan, 9Jan23
-addpath('C:\Anand\Acer_Data\SDSU\MOLE\mole-master\mole_MATLAB')
-addpath('C:\Anand\Acer_Data\SDSU\Mimetic\Quadratures\RelaxationRK\Matlab\WaveEqn\Rev2')
+% ASrinivasan, 14Oct23
+addpath('...\mole-master\mole_MATLAB')
 
 Ne = 10*[8, 16]'; 
 tEnd = 10;  
